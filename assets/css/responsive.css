@@ -1,0 +1,367 @@
+/* Top Header Css Start */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+   .left_topHeader .headerItems,
+   .right_topHeader ul li a {
+      font-size: 11px;
+   }
+}
+
+/* Top Header Css End */
+
+/* Header Css Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   #mainMenu .shopping a {
+      padding-left: 0px;
+   }
+}
+
+/* Header Css End */
+
+/* Banner Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .banner_arrow_left {
+      left: 45.5%;
+   }
+
+   .banner_arrow_right {
+      right: 45.5%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .bannerContent span {
+      margin-top: 100px;
+   }
+
+   #banner .bannerItem {
+      height: 500px;
+   }
+
+   .banner_arrow_left {
+      left: 44%;
+      bottom: 40px;
+   }
+
+   .banner_arrow_right {
+      right: 44%;
+      bottom: 40px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .bannerContent span {
+      margin-top: 50px;
+   }
+
+   #banner .bannerItem {
+      height: 450px;
+   }
+
+   .banner_arrow_left {
+      left: 42%;
+      bottom: 20px;
+   }
+
+   .banner_arrow_right {
+      right: 42%;
+      bottom: 20px;
+   }
+}
+
+/* Banner Css End */
+
+/* Service Css Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   #service .serviceItem p {
+      font-size: 13px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #service .serviceItem {
+      border-left: none;
+      padding: 20px 0;
+   }
+}
+
+/* Service Css End */
+
+/* Collection Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   #collection .collectionOverly {
+      top: 250px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   #collection .collectionOverly {
+      top: 200px;
+   }
+
+   #collection .collectionOverly h4 {
+      font-size: 28px;
+   }
+
+   #collection .collectionOverly h5 {
+      font-size: 18px;
+      line-height: 15px;
+   }
+
+   #collection .collectionOverly button {
+      font-size: 14px;
+      padding: 10px 15px;
+      margin: 10px 0;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #collection .collectionItem {
+      padding: 50px 0px;
+   }
+
+   #collection .collectionOverly {
+      top: 100px;
+   }
+
+   #collection .collectionOverly h4 {
+      font-size: 18px;
+   }
+
+   #collection .collectionOverly h5 {
+      font-size: 14px;
+   }
+
+   #collection .collectionOverly button {
+      font-size: 12px;
+      padding: 8px 14px;
+      margin: 10px 0;
+   }
+}
+
+/* Collection Css End */
+
+/* New Product Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   #newProduct .computer {
+      top: 45px;
+      left: -190px;
+   }
+
+   #newProduct h3 {
+      font-size: 30px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+   #newProduct .computer {
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+   }
+
+   #newProduct h3 {
+      font-size: 30px;
+   }
+
+   #newProduct .marginTop {
+      margin-top: 378px;
+   }
+}
+
+
+
+/* New Product Css End */
+
+/* Latest Css Start */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+   #featured .featuredItem .featuredOverly ul,
+   #latest .latestItem .latestOverly ul {
+      padding: 25px 0;
+   }
+
+   #featured .featuredItem .featuredOverly ul li,
+   #latest .latestItem .latestOverly ul li {
+      padding: 12px 0;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .latest_arrow_left {
+      left: 44%;
+   }
+
+   .latest_arrow_right {
+      right: 44%;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #featured .featuredItem .featuredOverly ul {
+      padding: 32.5px 0;
+   }
+
+   #featured .featuredItem .featuredOverly ul li {
+      padding: 16px 0;
+   }
+
+   #latest .latestItem span {
+      font-size: 14px;
+   }
+
+   #latest .latestItem .latestOverly ul {
+      padding: 1px 0;
+   }
+
+   #latest .latestItem .latestOverly ul li {
+      padding: 7px 0;
+   }
+
+   #latest .latestItem:hover .latestOverly {
+      width: 80px;
+   }
+
+   .latest_arrow_left {
+      left: 42%;
+   }
+
+   .latest_arrow_right {
+      right: 42%;
+
+   }
+}
+
+
+/* Latest Css End */
+
+/* Testimonial Css Start */
+@media (min-width: 576px) and (max-width: 991.98px) {
+   .testimonialBanner img.Em_img {
+      margin: auto;
+   }
+
+   .testimonialBanner .Em_info h5 {
+      padding-top: 5px;
+   }
+
+   .testimonialBanner .Em_info h5,
+   .testimonialBanner .Em_info h6 {
+      text-align: center;
+   }
+
+   .testimonial_arrow_left {
+      left: 44%;
+   }
+
+   .testimonial_arrow_right {
+      right: 44%;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .testimonialBanner .Em_info p {
+      font-size: 13px;
+   }
+
+   .testimonial_arrow_left {
+      left: 42%;
+   }
+
+   .testimonial_arrow_right {
+      right: 42%;
+   }
+}
+
+/* Testimonial Css End */
+
+/* Blog Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   #blog .blogItem h5 {
+      font-size: 7px;
+      padding: 15px 0 10px;
+   }
+
+   #blog .blogItemOverly span {
+      font-size: 11px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+   #blog .blogItemOverly span {
+      font-size: 12px;
+   }
+
+   #blog .blogItemOverly .updateInfo {
+      margin-top: 55%;
+   }
+}
+
+/* Blog Css End */
+
+/* Contact Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+   .info p,
+   .account a {
+      font-size: 12px;
+      line-height: 23px;
+   }
+
+   .contact p,
+   .contact p a {
+      font-size: 11px;
+   }
+
+   .contact p i {
+      padding-right: 13px;
+   }
+
+   .newsletter form button {
+      padding: 8px 15px;
+   }
+
+   .newsletter a {
+      margin-right: 14px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+   #contact .account,
+   #contact .newsletter {
+      margin-top: 40px;
+   }
+
+   .newsletter a {
+      margin-right: 18px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .newsletter a {
+      margin: 10px;
+
+   }
+
+   .contact,
+   .account,
+   .newsletter,
+   .follow {
+      margin-top: 30px;
+   }
+}
+
+
+/* Contact Css End */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #footer p {
+      font-size: 12px;
+   }
+}
