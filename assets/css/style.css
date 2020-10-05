@@ -74,7 +74,7 @@ a:hover {
 
 /* Header Css Start */
 #header{
-   background-color: rgba(255, 255, 255,.4);
+   background-color: #fff;
 }
 #header .logo {
    padding: 15px 0;
