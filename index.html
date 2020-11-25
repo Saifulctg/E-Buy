@@ -128,13 +128,13 @@
                             <a class="nav-link" href="#banner">Home</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#featured">Men</a>
+                            <a class="nav-link" href="#featured">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#featured">Women</a>
+                            <a class="nav-link" href="#latest">Latest</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#featured">Accesorries</a>
+                            <a class="nav-link" href="#testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Blogs</a>
@@ -161,10 +161,10 @@
     <!-- Banner Section Start -->
     <section id="banner">
         <div class="bannerItem" style="background-image: url(assets/images/banner-1.jpg);">
-            <div class="bennerOverly">
+            <div class="bannerOverly">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-9">
                             <div class="bannerContent">
                                 <span>2017</span>
                                 <h1>Trendy Design</h1>
@@ -184,10 +184,10 @@
             </div>
         </div>
         <div class="bannerItem" style="background-image: url(assets/images/banner-2.jpg);">
-            <div class="bennerOverly">
+            <div class="bannerOverly">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-9">
                             <div class="bannerContent">
                                 <span>2017</span>
                                 <h1>Trendy Design</h1>
@@ -207,10 +207,10 @@
             </div>
         </div>
         <div class="bannerItem" style="background-image: url(assets/images/banner-1.jpg);">
-            <div class="bennerOverly">
+            <div class="bannerOverly">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-9">
                             <div class="bannerContent">
                                 <span>2017</span>
                                 <h1>Trendy Design</h1>
@@ -303,16 +303,16 @@
         <div class="container">
             <div class="featuredHeading justify-content-center text-center">
                 <h2>Features Products</h2>
-                <ul>
-                    <li class="active" data-filter="all">all</li>
-                    <li data-filter="me">men</li>
-                    <li data-filter="wo">women</li>
-                    <li data-filter="ch">children</li>
-                    <li data-filter="acc" class="rightBorder">Accesorries</li>
+                <ul class="feature_list">
+                    <li class="active" data-filter="*">all</li>
+                    <li data-filter=".men">men</li>
+                    <li data-filter=".wom">women</li>
+                    <li data-filter=".child">children</li>
+                    <li data-filter=".acces" class="rightBorder">Accesorries</li>
                 </ul>
             </div>
-            <div class="row filterItem justify-content-between featuredContent">
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="me,wo">
+            <div class="row  justify-content-between featuredContent">
+                <div class="col-lg-3 col-md-4 col-sm-6 men child acces">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <a href="#"><img src="assets/images/featured-1.jpg" alt=""></a>
@@ -335,7 +335,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="wo,ch">
+                <div class="col-lg-3 col-md-4 col-sm-6 men child">
                     <div class="featuredItem">
                         <div class="featuredImages">
                             <img src="assets/images/featured-2.jpg" alt="">
@@ -358,7 +358,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="me">
+                <div class="col-lg-3 col-md-4 col-sm-6 child wom">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-3.jpg" alt="">
@@ -380,7 +380,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="wo,ch,acc">
+                <div class="col-lg-3 col-md-4 col-sm-6 wom acces">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-4.jpg" alt="">
@@ -403,7 +403,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="me,acc">
+                <div class="col-lg-3 col-md-4 col-sm-6 men wom">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-1.jpg" alt="">
@@ -426,7 +426,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="wo,ch">
+                <div class="col-lg-3 col-md-4 col-sm-6  child wom">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-2.jpg" alt="">
@@ -449,7 +449,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="me,acc">
+                <div class="col-lg-3 col-md-4 col-sm-6 child wom men">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-3.jpg" alt="">
@@ -471,7 +471,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 filtr-item" data-category="wo,me">
+                <div class="col-lg-3 col-md-4 col-sm-6 men acces child">
                     <div class="featuredItem ">
                         <div class="featuredImages">
                             <img src="assets/images/featured-4.jpg" alt="">
@@ -958,7 +958,7 @@
     <script src="assets/js/countdown.min.js"></script>
 
     <!-- Filter Js -->
-    <script src="assets/js/filterizr.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
 
     <!-- Custom Js -->
     <script src="assets/js/custom.js"></script>

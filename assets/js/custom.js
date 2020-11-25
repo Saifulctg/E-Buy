@@ -96,14 +96,17 @@ $(function () {
   });
   // Testimonial Code End
 
-  // Filterizer Code Start
+   // Isotope Filter Code Start
+   var $grid = $('.featuredContent').isotope();
 
-  $('.featuredContent').filterizr();
-
-  // Filterizer Code End
+    $('.feature_list').on( 'click', 'li', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+    });
+   // Isotope Filter Code End
 
   // Countdown Code Start
-  $('.countdown').countdown('2020/11/02', function (event) {
+  $('.countdown').countdown('2020/12/02', function (event) {
     var $this = $(this);
     $this.find('#day').html(event.strftime('<span>%D</span>'));
     $this.find('#hour').html(event.strftime('<span>%H</span>'));
@@ -124,9 +127,9 @@ $(function () {
       }
    })
    $('.backToTop').on('click', function(){
-      $('html,body').animate({
-          scrollTop:0
-      },'1000');
+     $('body,html').animate({
+         scrollTop:0
+      },1500);
    })
   // Back To Top Button Code End
 
